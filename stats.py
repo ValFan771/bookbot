@@ -12,3 +12,7 @@ def get_char_count(file_content):
         else:
             chars[char] = 1
     return chars
+
+def sort_dict(dictionary):
+    dictionary = sorted(dictionary.items(), key=lambda x: x[1], reverse=True)
+    return dictionary

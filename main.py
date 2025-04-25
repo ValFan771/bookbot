@@ -6,6 +6,6 @@ def main():
     words_count = get_words_count(file_content)
     char_count = get_char_count(file_content)
     print(f"{words_count} words found in the document")
-    print(char_count)
+    print(sort_dict(char_count))
 
 main()
